@@ -30,7 +30,7 @@ function mostrarCatalogo(array) {
         nuevoProducto.innerHTML = 
         `<div id="${producto.id}" class="card" style="width: 18rem;">
                   
-          <img class="card-img-top" style="height: 250px;"src="../img/ropa${producto.id}.jpg " alt="${producto.cat}">
+          <img class="card-img-top" style="height: 250px;"src="img/ropa${producto.id}.jpg " alt="${producto.cat}">
   
           <div class="card-body">
               <h4 class="card-title">${producto.cat}</h4>
@@ -71,7 +71,7 @@ function cargarProdEnCarrito(array){
       modalBody.innerHTML += 
         `<div class="card border-primary mb-3" id ="productoCarrito${productoCarrito.id}" style="max-width: 540px;">
   
-          <img class="card-img-top" height="300px" src="../img/ropa${productoCarrito.id}.jpg" alt="${productoCarrito.cat}">
+          <img class="card-img-top" height="300px" src="img/ropa${productoCarrito.id}.jpg" alt="${productoCarrito.cat}">
   
           <div class="card-body">
                   <h4 class="card-title">${productoCarrito.cat}</h4>
